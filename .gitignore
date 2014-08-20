@@ -37,8 +37,8 @@ Icon
 
 # Files that might be a problem with python
 *.pid 
-*.py[cod]
 *.swp
+*.pyc
 
 # Files that we should ignore for the sake of the pelican generated pages
 output/

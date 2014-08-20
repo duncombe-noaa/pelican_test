@@ -34,3 +34,12 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# Files that might be a problem with python
+*.pid 
+*.pyc
+*.swp
+
+# Files that we should ignore for the sake of the pelican generated pages
+output/*
+cache/*

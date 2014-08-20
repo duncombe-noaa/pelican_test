@@ -42,5 +42,6 @@ Icon
 
 # Files that we should ignore for the sake of the pelican generated pages
 output/*
+output/*.*
 cache/*
 

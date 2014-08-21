@@ -14,6 +14,7 @@ gh-pages branch. When this branch is pushed up to github, they will be immediate
 
 ## Execution under Windows (most complex case)
 
+- Is pelican installed? (`pip install pelican markdown`)
 - Clone the repository (in a git shell)
 - Edit the material in the content\ folder of the master branch 
 - In a python (anaconda) shell, run  `pelican content`.

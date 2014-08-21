@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>IOOS Pelican Test</title><link href="http://duncombe-noaa.github.io/pelican_test/" rel="alternate"></link><link href="http://duncombe-noaa.github.io/pelican_test/feeds%5Cchris-duncombe-rae.atom.xml" rel="self"></link><id>http://duncombe-noaa.github.io/pelican_test/</id><updated>2014-08-21T14:45:00+02:00</updated><entry><title>First Entry Where It Feels Like I Know What I Am Doing</title><link href="http://duncombe-noaa.github.io/pelican_test/new_entry_201408211442.html" rel="alternate"></link><updated>2014-08-21T14:45:00+02:00</updated><author><name>Chris Duncombe Rae</name></author><id>tag:duncombe-noaa.github.io,2014-08-21:pelican_test/new_entry_201408211442.html</id><summary type="html">&lt;h1&gt;A working concept developed&lt;/h1&gt;
 &lt;p&gt;Now I have an idea how this thing works and I can start populating some things to test further. At least I have a kludgy method of getting markdown docs onto a website in a kind of bloggy fashion. &lt;/p&gt;
-&lt;p&gt;The method is described in the readme on the github pages. Essentially it consists of 
-- cloning the repository, 
-- making desired edits in the master branch, usually adding content to content folder,
-- running pelican 
-- changing to the gh-pages branch,
-- rearranging the output html pages
-    - deleting everything in the top directory (except the output directory),
-    - taking everything out of output and putting in the top directory.
-- pushing the changes to the website (github).&lt;/p&gt;</summary></entry><entry><title>My Fourth Web Page</title><link href="http://duncombe-noaa.github.io/pelican_test/webpage4.html" rel="alternate"></link><updated>2014-08-20T08:13:00+02:00</updated><author><name>Chris Duncombe Rae</name></author><id>tag:duncombe-noaa.github.io,2014-08-20:pelican_test/webpage4.html</id><summary type="html">&lt;h1&gt;This is the Fourth Web Page.&lt;/h1&gt;
+&lt;p&gt;The method is described in the readme on the github pages. Essentially it consists of &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cloning the repository, &lt;/li&gt;
+&lt;li&gt;making desired edits in the master branch, usually adding content to content folder,&lt;/li&gt;
+&lt;li&gt;running pelican &lt;/li&gt;
+&lt;li&gt;changing to the gh-pages branch,&lt;/li&gt;
+&lt;li&gt;rearranging the output html pages&lt;ul&gt;
+&lt;li&gt;deleting everything in the top directory (except the output directory),&lt;/li&gt;
+&lt;li&gt;taking everything out of output and putting in the top directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;pushing the changes to the website (github).&lt;/li&gt;
+&lt;/ul&gt;</summary></entry><entry><title>My Fourth Web Page</title><link href="http://duncombe-noaa.github.io/pelican_test/webpage4.html" rel="alternate"></link><updated>2014-08-20T08:13:00+02:00</updated><author><name>Chris Duncombe Rae</name></author><id>tag:duncombe-noaa.github.io,2014-08-20:pelican_test/webpage4.html</id><summary type="html">&lt;h1&gt;This is the Fourth Web Page.&lt;/h1&gt;
 &lt;p&gt;Having now spent a few more minutes with this Pelican, I find that one of the
 frequently asked questions is whether the Pelican is only good for a blog
 (&lt;a href="/webpage3.html"&gt;last entry&lt;/a&gt;) or if it can be used for

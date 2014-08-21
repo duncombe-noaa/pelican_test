@@ -16,10 +16,10 @@ $files=get-childitem -name -Exclude "output",".git*","batch_arrange.ps1","README
 # $files
 
 # nuke $files by passing the list to Remove-Item, being sure to Recurse, else complaints ensue
-$files | Remove-Item -Recurse
+$files | Remove-Item -Recurse -Verbose
 
 # and move the contents of output to the current (hoping for no overlap)
-Move-Item output\* .
+Move-Item output\* . -Verbose
 
 # now we should be able to 
 #      git push 

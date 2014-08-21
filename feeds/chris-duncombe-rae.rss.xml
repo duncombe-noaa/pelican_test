@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IOOS Pelican Test</title><link>http://duncombe-noaa.github.io/pelican_test/</link><description></description><atom:link href="http://duncombe-noaa.github.io/pelican_test/feeds%5Cchris-duncombe-rae.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 20 Aug 2014 08:13:00 +0200</lastBuildDate><item><title>My Fourth Web Page</title><link>http://duncombe-noaa.github.io/pelican_test/webpage4.html</link><description>&lt;h1&gt;This is the Fourth Web Page.&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IOOS Pelican Test</title><link>http://duncombe-noaa.github.io/pelican_test/</link><description></description><atom:link href="http://duncombe-noaa.github.io/pelican_test/feeds%5Cchris-duncombe-rae.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 21 Aug 2014 14:45:00 +0200</lastBuildDate><item><title>First Entry Where It Feels Like I Know What I Am Doing</title><link>http://duncombe-noaa.github.io/pelican_test/new_entry_201408211442.html</link><description>&lt;h1&gt;A working concept developed&lt;/h1&gt;
+&lt;p&gt;Now I have an idea how this thing works and I can start populating some things to test further. At least I have a kludgy method of getting markdown docs onto a website in a kind of bloggy fashion. &lt;/p&gt;
+&lt;p&gt;The method is described in the readme on the github pages. Essentially it consists of 
+- cloning the repository, 
+- making desired edits in the master branch, usually adding content to content folder,
+- running pelican 
+- changing to the gh-pages branch,
+- rearranging the output html pages
+    - deleting everything in the top directory (except the output directory),
+    - taking everything out of output and putting in the top directory.
+- pushing the changes to the website (github).&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Duncombe Rae</dc:creator><pubDate>Thu, 21 Aug 2014 14:45:00 +0200</pubDate><guid>tag:duncombe-noaa.github.io,2014-08-21:pelican_test/new_entry_201408211442.html</guid></item><item><title>My Fourth Web Page</title><link>http://duncombe-noaa.github.io/pelican_test/webpage4.html</link><description>&lt;h1&gt;This is the Fourth Web Page.&lt;/h1&gt;
 &lt;p&gt;Having now spent a few more minutes with this Pelican, I find that one of the
 frequently asked questions is whether the Pelican is only good for a blog
 (&lt;a href="/webpage3.html"&gt;last entry&lt;/a&gt;) or if it can be used for
@@ -29,16 +39,6 @@ over
 &lt;!---
 [here](docs/ctd_document.html).
 [here]({filename}/docs/ctd_document.md).
---&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Duncombe Rae</dc:creator><pubDate>Tue, 19 Aug 2014 14:45:00 +0200</pubDate><guid>tag:duncombe-noaa.github.io,2014-08-19:pelican_test/ctd_entry.html</guid></item><item><title>First Entry Where It Feels Like I Know What I Am Doing</title><link>http://duncombe-noaa.github.io/pelican_test/new_entry_201408211442.html</link><description>&lt;h1&gt;A working concept developed&lt;/h1&gt;
-&lt;p&gt;Now I have an idea how this thing works and I can start populating some things to test further. At least I have a kludgy method of getting markdown docs onto a website in a kind of bloggy fashion. &lt;/p&gt;
-&lt;p&gt;The method is described in the readme on the github pages. Essentially it consists of 
-- cloning the repository, 
-- making desired edits in the master branch, usually adding content to content folder,
-- running pelican 
-- changing to the gh-pages branch,
-- rearranging the output html pages
-    - deleting everything in the top directory (except the output directory),
-    - taking everything out of output and putting in the top directory.
-- pushing the changes to the website (github).&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Duncombe Rae</dc:creator><pubDate>Tue, 19 Aug 2014 14:45:00 +0200</pubDate><guid>tag:duncombe-noaa.github.io,2014-08-19:pelican_test/new_entry_201408211442.html</guid></item><item><title>My Second Web Page</title><link>http://duncombe-noaa.github.io/pelican_test/webpage2.html</link><description>&lt;p&gt;In this page we look at some content. in the next post we are going to  talk about CTD data
+--&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Duncombe Rae</dc:creator><pubDate>Tue, 19 Aug 2014 14:45:00 +0200</pubDate><guid>tag:duncombe-noaa.github.io,2014-08-19:pelican_test/ctd_entry.html</guid></item><item><title>My Second Web Page</title><link>http://duncombe-noaa.github.io/pelican_test/webpage2.html</link><description>&lt;p&gt;In this page we look at some content. in the next post we are going to  talk about CTD data
 calibration and we will put a summary here and link to the document.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Duncombe Rae</dc:creator><pubDate>Tue, 19 Aug 2014 14:05:00 +0200</pubDate><guid>tag:duncombe-noaa.github.io,2014-08-19:pelican_test/webpage2.html</guid></item><item><title>My First Web Page</title><link>http://duncombe-noaa.github.io/pelican_test/my-first-web-page.html</link><description>&lt;p&gt;The following is a first look at the wonderful new IOOS Webpages.&lt;/p&gt;
 &lt;p&gt;These web pages were written in markdown, converted to html by Pelican,  and published on github (eventually). Right now of course I am looking at them locally using Python simpleHTTPServer. Woo-woo!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Duncombe Rae</dc:creator><pubDate>Tue, 19 Aug 2014 13:55:00 +0200</pubDate><guid>tag:duncombe-noaa.github.io,2014-08-19:pelican_test/my-first-web-page.html</guid></item></channel></rss>

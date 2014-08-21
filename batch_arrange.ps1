@@ -1,4 +1,7 @@
 # power shell script to remove contents of .\ except output\ and then move contents of output\ up into .\
+# 
+
+# Author: CMDRae 2014-08-21
 
 # run this script after pulling the source (master) from github, making changes, pushing them to github, 
 # running pelican contents to populate output\, and changing the branch to gh-pages.
@@ -8,7 +11,7 @@
 # a list of files in .\, not including output\
 # $files=get-childitem -name | grep -v "output"
 # more better:
-$files=get-childitem -name -Exclude "output",".git*","batch_arrange.ps1" 
+$files=get-childitem -name -Exclude "output",".git*","batch_arrange.ps1","README.md" 
 
 # $files
 

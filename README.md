@@ -19,8 +19,8 @@ github, they will be accessible publicly on a `github.io` website.
 
 
 - Is pelican installed? (`pip install pelican markdown`)
-- Clone the repository (in a git shell)
-- Edit the material in the content\ folder of the master branch 
+- Clone the repository (in a git shell; best to clone fresh each time to prevent unwanted contamination)
+- Edit the material in the `content\` folder of the master branch 
 - In a python (anaconda) shell, run  `pelican content`.
 - In a git shell, commit and push the master branch to the origin.
 - Checkout the gh-pages branch.

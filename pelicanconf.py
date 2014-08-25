@@ -4,7 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Chris Duncombe Rae'
 SITENAME = u'IOOS Pelican Test'
-SITEURL = 'http://duncombe-noaa.github.io/pelican_test'
+# if draft
+if False:
+    SITEURL = ''
+else:
+    SITEURL = 'http://duncombe-noaa.github.io/pelican_test'
+
 
 PATH = 'content'
 
@@ -28,7 +33,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 STATIC_PATHS = [
-    'docs/',
+    'docs',
     ]
 
 DEFAULT_PAGINATION = 10

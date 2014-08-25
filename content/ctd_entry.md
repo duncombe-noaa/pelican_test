@@ -13,10 +13,11 @@ preparation and analysis of recalcitrant Conductivity-Temperature-Depth date.
 
 The document is to be found 
 over 
-[here](/docs/ctd_document.md).
+[here]({filename}docs/ctd_document.html).
 
 <!---
 [here](docs/ctd_document.html).
-[here]({filename}/docs/ctd_document.md).
+[here]({filename}docs/ctd_document.md).
+[here]({filename}docs/ctd_document.html).
 -->
 

@@ -25,6 +25,7 @@ github, they will be accessible publicly on a `github.io` website.
 - In a git shell, commit and push the master branch to the origin.
 - Checkout the gh-pages branch.
 - Run the powershell script batch_arrange.ps1 (which will move everything from the .\output sub-directory to the .\ directory).
+	- instead use the `git subtree`  command (see `hugo` webpages).
 - Commit and push the gh-pages branch to the origin.
 - Check that the correct webpages appear on the site.
 
